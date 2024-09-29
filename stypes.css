@@ -1,0 +1,109 @@
+body {
+  background-color: #ffffff;
+}
+.main-page {
+  height: 100vh;
+  background-color: #1f1f27;
+}
+.left-box {
+  /* background-color: red; */
+}
+.right-box {
+  background-color: #1f1f2b;
+}
+.middle-box {
+}
+.img-box-1 {
+  height: 30vh;
+  background-color: #2f2f2b;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.user-img-1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: auto;
+  background-image: url("user.png");
+  background-size: cover;
+  background-position: center;
+}
+.information {
+  height: 70vh;
+  background-color: #1f1f2b;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+b {
+  font-size: 0.8em;
+}
+small {
+  font-size: 0.7em;
+}
+:root {
+  --progress-bar-width: 50px;
+  --progress-bar-height: 50px;
+  --font-size: 0.5rem;
+}
+
+.circular-progress {
+  width: var(--progress-bar-width);
+  height: var(--progress-bar-height);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+.inner-circle {
+  position: absolute;
+  width: calc(var(--progress-bar-width) - 10px);
+  height: calc(var(--progress-bar-height) - 10px);
+  border-radius: 50%;
+}
+
+.percentage {
+  position: relative;
+  font-size: var(--font-size);
+  color: rgb(0, 0, 0, 0.8);
+}
+.progrss-bar {
+  width: 80%;
+  background-color: rgb(226, 226, 83);
+  height: 3px;
+  border-radius: 3px;
+}
+.b2 {
+  width: 90%;
+}
+.b3 {
+  width: 95%;
+}
+.b4 {
+  width: 85%;
+}
+.b5 {
+  width: 65%;
+}
+.img-middle-box-1 {
+  height: 30vh;
+  background-image: url("bg3.jpg");
+  background-size: cover;
+}
+.overlay {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+.title-img {
+  height: 100%;
+
+  background-image: url("ti.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-card {
+  height: 25vh;
+  background-color: #2c2c36;
+}
